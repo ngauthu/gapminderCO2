@@ -3,10 +3,10 @@ Visualization of CO2 emission across countries and any potential correlations
 
 ## Dataset overview
 
-> About data provider Gapminder: Gapminder has collected a lot of information about how people live their lives in different countries, tracked across the years, and on a number of different indicators. The data used can be downloaded from Gapminder here.
+> About data provider Gapminder: Gapminder has collected a lot of information about how people live their lives in different countries, tracked across the years, and on a number of different indicators. The data used can be downloaded from Gapminder [here](https://www.gapminder.org/data/).
 
 
-For this project, CO2 emission per person will be collected between 1998 and 2017 together with GDP per capita (inflation-adjusted), broadband subscribers per 100 people, freedom index, industry percent in GDP, agricultural percent in GDP. Each indicator is stored in a separate excel spreadsheet downloaded on 23rd March 2022. These indicators are merged together in one full dataset.
+For this project, CO2 emission per person was collected between 1998 and 2017 together with GDP per capita (inflation-adjusted), broadband subscribers per 100 people, freedom index, industry percent in GDP, agricultural percent in GDP. Each indicator is stored in a separate excel spreadsheet downloaded on 23rd March 2022. These indicators are merged together in one full dataset.
 
 
 
