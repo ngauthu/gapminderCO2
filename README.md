@@ -1,4 +1,4 @@
-![image](https://github.com/ngauthu/gapminderCO2/assets/20643257/72f9e416-eda4-41bc-bca1-095915a80801)# Gapminder-CO2-analysis
+# Gapminder-CO2-analysis
 Visualization of CO2 emission across countries and any potential correlations
 
 ## Dataset overview
