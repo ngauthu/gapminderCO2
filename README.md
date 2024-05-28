@@ -1,4 +1,4 @@
-# Gapminder-CO2-analysis
+![image](https://github.com/ngauthu/gapminderCO2/assets/20643257/72f9e416-eda4-41bc-bca1-095915a80801)# Gapminder-CO2-analysis
 Visualization of CO2 emission across countries and any potential correlations
 
 ## Dataset overview
@@ -7,7 +7,6 @@ Visualization of CO2 emission across countries and any potential correlations
 
 
 For this project, CO2 emission per person was collected between 1998 and 2017 together with GDP per capita (inflation-adjusted), broadband subscribers per 100 people, freedom index, industry percent in GDP, agricultural percent in GDP. Each indicator is stored in a separate excel spreadsheet downloaded on 23rd March 2022. These indicators are merged together in one full dataset.
-
 
 
 
@@ -25,3 +24,12 @@ GDP per capita seems to have a positive correlation with CO2 emission per person
 
 We might also need a wider time span (repeated findings in multiple years) to confirm the correlations between CO2 emission per person and other indexes. More efforts can also look into confirming if agriculture percentage in GDP and industry percentage in GDP do not have correlation with CO2 emission per capita. We can also try using other indexes to measure CO2, for example, only total CO2 emission or CO2 emission per USD earned in GDP.
 
+## Data wrangling and analysis highlights
+
+> The separate datasets are joined together based on country and year
+> We narrow down by countries with 20 years of data available & fill in/ replace some variables to introduce more meaning and structure to the data processing
+> As an overview, I created a function to draw histograms on the same axes for different years with input in variable, year and color defined.
+> I used this function to summarize the distribution for the numerical variables: CO2 emission per person, GDP per capita, freedom index, industry GDP percent and agriculture GDP
+percent
+> For the first question, I summarized these same variables as averages per continent and used colored line chart to demonstrate how the averages of different continents vary between 1998 and 2017.
+> For the second question, I used scatter plots to look at the correlation between CO2 emission per person and other variables. Another layer to the scatter plots is the grouping of the countries based on the GDP per capita.
